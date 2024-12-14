@@ -2,11 +2,13 @@ abstract class MobileUser{
     abstract void sendMessage();
 }
 class Rahim extends MobileUser{
+  
     void sendMessage(){
         System.out.println("Hi, I am Rahim");
     }
 }
 class Karim extends MobileUser{
+   
     void sendMessage(){
         System.out.println("Hi, I am Karim");
     }
